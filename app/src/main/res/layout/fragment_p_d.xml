@@ -1,0 +1,65 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="match_parent"
+    tools:context="fragment.Images">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/button5"
+        android:layout_width="67dp"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="265sp"
+        android:layout_marginBottom="135sp"
+        android:backgroundTint="#9B02B5"
+        android:src="@drawable/add"
+        />
+
+    <EditText
+        android:id="@+id/edittextview1"
+        android:layout_width="311dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:hint="Enter File Name" />
+
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_marginBottom="100dp"/>
+
+    <ImageView
+        android:src="@drawable/pdf"
+        android:id="@+id/pdfview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="55dp"
+        android:layout_marginBottom="200dp"/>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:backgroundTint="#838282"
+        android:layout_marginLeft="1in"
+        android:text="UPLOAD"
+        android:layout_marginBottom="50dp"
+        android:textColor="@color/black" />
+
+
+    <TextView
+        android:id="@+id/textview4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="265dp"
+        android:layout_marginBottom="60dp"
+        android:text="Show Uploads"
+        android:textSize="16sp" />
+
+</FrameLayout>

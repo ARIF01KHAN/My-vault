@@ -36,8 +36,8 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="1in"
-        android:layout_height="38dp"
+        android:layout_width="169dp"
+        android:layout_height="48dp"
         android:text="Register"
         android:textAlignment="center"
         android:textColor="#0027FF"
@@ -64,8 +64,8 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="136dp"
-        android:layout_height="41dp"
+        android:layout_width="118dp"
+        android:layout_height="40dp"
         android:backgroundTint="@color/white"
         android:text="Click here"
         android:textColor="#0027FF"
@@ -73,10 +73,10 @@
         app:iconTint="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.701"
+        app:layout_constraintHorizontal_bias="0.761"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.843" />
+        app:layout_constraintVertical_bias="0.852" />
 
     <ImageView
         android:id="@+id/imageView"

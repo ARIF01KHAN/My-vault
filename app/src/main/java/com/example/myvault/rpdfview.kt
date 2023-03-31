@@ -69,6 +69,7 @@ class rpdfview : AppCompatActivity() {
             override fun onCancelled(error: DatabaseError) {
                 Toast.makeText(this@rpdfview, error.toString(), Toast.LENGTH_SHORT).show()
             }
+
         })
 
 
